@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gemenskapet Vetenskapsmuseum: Utforska världen tillsammans </title>
+    <meta name="description" content="Upplev vetenskap på Gemenskapet Vetenskapsmuseum. Utforska interaktiva utställningar och upptäck världens under.">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
+    <a id="top"></a>
+    <header>
+        <a href="index.html"><img class="logo" src="/assets/images/museum-logga.png" alt="Gemenskapet Vetenskapsmuseum logga"></a>
+      
+        <input id="toggler" class="toggler" type="checkbox">
+        <label for="toggler" class="burger">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </label>
+        <a href="html/engagera-dig.html" class="main-button">Engagera dig</a>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">hem</a></li>
+                <li><a href="html/utforska.html">utforska</a></li>
+                <li><a href="html/evenemang.html">evenemang</a></li>
+                <li><a href="html/nyheter.html">nyheter</a></li>
+                <li><a href="html/kontakt.html">kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <main>     
+            <div class="grid-parent">
+                <div class="topinfo-left">
+                <p>Boka er guidade tur för grupp på 6 eller fler personer <a href="html/kontakt.html">här</a></p>
+                </div>
+                <div class="topinfo-right">
+                <p>Entrén är gratis för alla</p>
+                </div>
+            </div>
+
+            <picture class="main-img">
+                <h1>Biologi och medicin</h1>
+                <p class="post-headline">Evenemang: Från mikroorganismer till människokroppen.</p>
+                <a href="html/kontakt.html" class="call-to-action-button">Boka nu <i class="fa-solid fa-arrow-right fa-xl"></i></a>
+                <figure class="polygon1"></figure> 
+                <figure class="polygon2"></figure>
+                <figure class="polygon3"></figure> 
+                <figure class="polygon4"></figure>                  
+            </picture>
+
+        <section class="page-content">
+                <h2>Gemenskapet vetenskapsmuseeum</h2>
+
+                <article class="grid-parent-article">
+                    <div class="article-left">
+                        <p>Följ med oss ​​på <strong>Gemenskapet Vetenskapsmuseum</strong> där vi är engagerade i att göra 
+                            <strong>vetenskap tillgänglig för alla.</strong></p> 
+                        <p>Under mänsklighetens historia har vetenskapen utvecklats från vår tidiga förståelse av eld, 
+                            vind, vatten och jord till att utforska allt från galaxer långt borta till själva livets 
+                            byggstenar.</p>
+                        <p>Syftet med vårt museum är att skapa ett utrymme där alla kan uppleva underverken av våra 
+                            upptäckter och kanske till och med <strong>tända en livslång passion</strong> för att 
+                            fortsätta utforska världen omkring oss.</p>
+                        <p>Vi anser att vetenskap inte bör begränsas till läroboken, utan levandegöras genom utställningar. 
+                            Det är därför vi har över <strong>1000 olika utställningar inom vetenskap</strong> om de många 
+                            olika ämnen att utforska.</p>
+                        <p>Många av dessa utställningar är designade för dig att interagera med och leka för att se 
+                            vetenskapen komma till liv (förutom dinosaurieutställningarna – de vaknar bara till liv på 
+                            natten när alla har gått hem).</p>
+                    </div>
+                    <div class="article-right">
+                        <img class="img" src="assets/images/utstallning.png" alt="Utställning på Vetenskapsmuseet">
+                    </div>
+                </article>
+
+                <article class="grid-parent-newsinfo">
+                        <div class="newsinfo-top">
+                            <h2 class="newsinfo-head"><i class="fa-regular fa-newspaper fa-l"></i> Nyheter</h2>
+                        </div>
+                        <div class="newsinfo-left">
+                            <h3>Gästprofessor i flygteknik</h3>
+                            <p>Professor Sheila Widnall från Massachusetts Institute of Technology kommer att hålla 3 
+                            föreläsningar om utvecklingen av flygteknik och var framtiden ligger i detta spännande "utrymme".</p>
+                        </div>
+                        <div class="newsinfo-right">
+                            <a href="html/engagera-dig.html" class="arrow-button">Läs mer <i class="fa-solid fa-arrow-right fa-l"></i></a>
+                        </div>
+                </article>
+
+        </section>  
+
+    </main>
+
+        <footer class="footer-container">
+            <!-- Footer social -->
+            <div class="footer-social">
+                <div class="social">
+                    <a href="#" class="btn-social-fb"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
+                    <a href="#" class="btn-social-fb btn-social-tw"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    <a href="#" class="btn-social-fb btn-social-in"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                </div>
+                <div class="social-text">
+                    <p class="footer-title-social">vi är sociala</p>
+                </div>
+                <div class="up">
+                    <p class="footer-title-social">upp</p>
+                    <a href="#top" class="btn-up"><i class="fa-solid fa-arrow-up fa-2x"></i></a>
+                </div>
+            </div>
+            <!-- Footer main -->
+            <address class="footer-main"> 
+                    <p class="footer-title"><i class="fa-regular fa-location-dot fa-xl fa-fw"></i> Besöksadress</p>
+                    <p>Dom Nyfiknas Gata 22, 430 60 Göteborg</p>
+                    <p class="footer-title"><i class="fa-solid fa-link fa-xl fa-fw"></i> Länkar</p>
+                    <p><a href="html/intigretetspolicy.html">Integritetspolicy</a></p>
+                    <p><a href="html/allmanna-villkor.html">Allmänna villkor</a></p>
+            </address>
+            <!-- Footer legal -->
+            <span class="footer-legal"><p>© 2024 Gemenskapet Vetenskapsmuseum</p></span>
+        </footer>
+
 </body>
 </html>

@@ -1,0 +1,60 @@
+.main-img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    min-height: 480px;
+    background-image: linear-gradient(90deg, rgba(244,218,82,0.804359243697479) 23%, rgba(244,218,82,0) 56%), url("../../assets/images/jesse-orrico.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+  }
+
+.newsinfo-head {
+    color: var(--white);
+    background-color: var(--primaryblue);
+    font-weight: 900;
+    font-size: 20px;
+    min-width: 200px;
+    width: 200px;
+    padding: 0;
+    text-align: center;
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px; 
+}
+    
+.newsinfo-top {
+    grid-column: span 2 / span 2;
+    padding-left: 5%;
+    height: 100%;
+    border-bottom: 5px solid var(--primaryblue);
+}
+
+.newsinfo-left {
+    grid-row-start: 2;
+    background-color: var(--lightblue);
+    padding-left: 5%;
+    padding: 30px;
+}
+
+.newsinfo-right {
+    grid-row-start: 2;
+    background-color: var(--lightblue);
+    padding-right: 5%;
+    padding: 30px;
+    text-align: right;
+}
+
+.grid-parent-newsinfo p {
+    line-height: 30px;
+    padding-left: 5%;
+  }
+
+.grid-parent-newsinfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template: 50px auto / 1fr 400px;
+    margin-bottom: 50px;
+}
