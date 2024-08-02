@@ -138,9 +138,14 @@ main {
     padding-right: 10%;
   }
 
-.topinfo-right p {
+.topinfo-h2 {
+    font-size: 18px;
     font-weight: 900;
     text-align: right;
+    background: none;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
   }
 
 .grid-parent {
@@ -534,7 +539,7 @@ main {
     padding-right: 0;
   }
 
-.topinfo-right p {
+.topinfo-h2 {
     text-align: center;
   }
 
