@@ -1,0 +1,110 @@
+.main-img-villkor {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    min-height: 480px;
+    background-image: linear-gradient(90deg, rgba(244,218,82,0.804359243697479) 23%, rgba(244,218,82,0) 56%), url("../../assets/images/bollar.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    margin-bottom: 50px;
+  }
+
+h2.bluebg-villkor {
+    font-size: 4vmin;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: var(--lightblue);
+    line-height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.villkor-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    height: 100%;
+    padding-bottom: 30px;
+    text-align: left;
+    gap: 5%;
+}
+
+.villkor-content p {
+    padding-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.villkor-content .column {
+    flex-direction: column;
+    padding: 0;
+    flex: 1 200px;
+}
+
+.villkor-content .left-column {
+    flex: 0 0 60%; 
+}
+
+.villkor-content .right-column {
+    flex: 0 0 35%;
+    position: sticky;
+    top: 0px;
+}
+
+.list {
+    margin: 20px;
+}
+
+.list li {
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-bottom: 10px;
+    position: relative;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.list li::before {
+    content: "•"; 
+    color: var(--primaryblue);
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    left: 8%;
+    top: 25px;
+    transform: translateY(-50%);
+}
+
+
+ /* Hide element on Tablet/Phone */
+
+ @media only screen and (max-width:850px) {
+    
+    .villkor-content  {
+        flex-direction: column; 
+    }
+
+    h2.bluebg-villkor {
+        text-align: center;
+      }
+
+    .villkor-content .left-column {
+        flex: 0 0 100%; 
+    }
+
+    .villkor-content .right-column {
+        display: none;
+    }
+    
+  }

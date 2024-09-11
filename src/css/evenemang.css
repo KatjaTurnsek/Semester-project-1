@@ -1,0 +1,129 @@
+.main-img-evenemang {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    min-height: 480px;
+    background-image: linear-gradient(90deg, rgba(244,218,82,0.804359243697479) 23%, rgba(244,218,82,0) 56%), url("../../assets/images/hjarta.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    margin-bottom: 50px;
+  }
+
+.evenemang-title {
+    font-size: 4vmin;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+
+.evenemang-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 0;
+}
+
+.evenemang-box1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--lightblue);
+}
+
+.evenemang-box2 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightblue);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 60px;
+}
+.evenemang-box3 {
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.evenemang-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+.grid-evenemang-left {
+    text-align: left;
+    border-right: 1px solid var(--lighterblue);
+    padding-right: 60px;
+  }
+
+.grid-evenemang-left p {
+    margin-bottom: 20px;
+  }
+
+.grid-evenemang-right {
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+.grid-evenemang-right p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+.grid-evenemang-parent {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 250px;
+  }
+
+  /* Hide element on Tablet/Phone */
+
+@media only screen and (max-width:850px) {
+    .evenemang-title {
+        text-align: center;
+    }
+
+    .evenemang-img {
+        height: 200px;
+      }
+    
+    .grid-evenemang-parent {
+        grid-template-columns: 1fr;
+      }
+
+    .grid-evenemang-left {
+        text-align: center;
+        border-right: none;
+        border-bottom: 1px solid var(--lighterblue);
+        padding-right: 0;
+        padding-bottom: 20px;
+      }
+    
+}

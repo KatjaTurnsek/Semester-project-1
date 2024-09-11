@@ -1,0 +1,133 @@
+.main-img-nyheter {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    min-height: 480px;
+    background-image: linear-gradient(90deg, rgba(244,218,82,0.804359243697479) 23%, rgba(244,218,82,0) 56%), url("../../assets/images/labb.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    margin-bottom: 50px;
+  }
+
+.nyheter-title, .nyheter-date {
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    line-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+ 
+.nyheter-title {
+    font-size: 4vmin;
+    text-transform: uppercase;
+    background-color: var(--lightblue);
+    width: 60%;
+}
+
+.nyheter-date {
+    font-size: 3vmin;
+    background-color: var(--lighterblue);
+    width: 40%;
+}
+
+.nyheter-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    padding-bottom: 60px;
+}
+
+.nyheter-box1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nyheter-box2 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightblue);
+    border-radius: 30px;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 60px;
+}
+
+.nyheter-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+hr  {
+    border-top: 1px solid var(--lighterblue);
+    display: block;
+    height: 1px;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.grid-nyheter-left {
+    text-align: left;
+    padding: 60px;
+  }
+
+.grid-nyheter-left p {
+    margin-bottom: 20px;
+  }
+
+.grid-nyheter-right {
+    padding: 0;
+  }
+
+.grid-nyheter-right p {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+.grid-nyheter-parent {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 39%;
+  }
+
+  /* Hide element on Tablet/Phone */
+
+@media only screen and (max-width:850px) {
+
+    .nyheter-img {
+        height: 300px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+      }
+
+    .nyheter-title, .nyheter-date {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .grid-nyheter-parent {
+        grid-template-columns: 1fr;
+      }
+
+    .grid-nyheter-left {
+        border-right: none;
+        padding-bottom: 0;
+      }
+    
+}

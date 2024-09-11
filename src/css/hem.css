@@ -9,28 +9,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
+    margin-bottom: 50px;
   }
-
-.newsinfo-title {
-    color: var(--white);
-    background-color: var(--primaryblue);
-    font-weight: 900;
-    font-size: 20px;
-    min-width: 200px;
-    width: 200px;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    border-top-left-radius: 30px; 
-    border-top-right-radius: 30px; 
-}
 
 .newsinfo-title-h3 {
     font-size: 2.5vmin;
     font-weight: 900;
     text-transform: uppercase;
     text-align: left;
-    background-color: none;
     margin: 0;
     margin-bottom: 30px;
     padding: 0;
@@ -47,6 +33,7 @@
 .newsinfo-left {
     grid-row-start: 2;
     padding: 50px;
+    padding-left: 7%;
 }
 
 .newsinfo-right {
@@ -76,7 +63,6 @@
     font-weight: 900;
     text-transform: uppercase;
     text-align: left;
-    background-color: none;
     padding-left: 5%;
     padding-bottom: 20px;
     padding: 20px;
@@ -85,7 +71,6 @@
 
 .museuminfo-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     height: 100%;
     gap: 40px;
@@ -96,25 +81,21 @@
 }
 
 .museuminfo-container p {
+    flex: 1 1 auto;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: left;
 }
 
-.museuminfo-box1 {
-    flex: 1 250px;
-    box-sizing: border-box;
-    background-color: var(--lightblue);
-    border-radius: 30px;
+.museuminfo-container a {
+    margin: 20px;
+    text-align: left;
 }
 
-.museuminfo-box2 {
-    flex: 1 250px;
-    box-sizing: border-box;
-    background-color: var(--lightblue);
-    border-radius: 30px;
-}
-
-.museuminfo-box3 {
+.museuminfo-box1, .museuminfo-box2, .museuminfo-box3 {
+    width: 33.33333%;
+    display: flex ;
+    flex-direction: column;
     flex: 1 250px;
     box-sizing: border-box;
     background-color: var(--lightblue);
@@ -153,9 +134,15 @@
         text-align: center;
     }
 
+    .museuminfo-box1, .museuminfo-box2, .museuminfo-box3 {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
     .museuminfo-container p {
-        padding-left: 20px;
-        padding-right: 20px;
         text-align: center;
     }
 
@@ -165,16 +152,17 @@
         text-align: center;
     }
 
-    .newsinfo-top,
+    .newsinfo-top {
+        padding-bottom: 0;
+        grid-column: span 1 / span 1;
+        grid-row-start: auto;
+    }
+
     .newsinfo-left,
     .newsinfo-right {
         grid-column: span 1 / span 1;
         grid-row-start: auto;
-        padding-bottom: 0;
-    }
-
-    .newsinfo-title {
-        width: 100%;
+        padding-bottom: 40px;
     }
 
     .newsinfo-title-h3 {

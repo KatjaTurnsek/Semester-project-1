@@ -1,0 +1,214 @@
+.main-img-kontakt {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    min-height: 480px;
+    background-image: linear-gradient(90deg, rgba(244,218,82,0.804359243697479) 23%, rgba(244,218,82,0) 56%), url("../../assets/images/vetenskapsmuseum.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    margin-bottom: 50px;
+  }
+
+  .kontakt-title {
+    font-size: 3.5vmin;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.kontakt-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    column-gap: 5%;
+}
+
+.kontakt-box1 {
+    flex-direction: column;
+    width: 47.5%;
+}
+
+.kontakt-box2 {
+    flex-direction: column;
+    width: 47.5%;
+}
+
+.grid-kontakt-top {
+    background-color: var(--lighterblue);
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+.grid-kontakt-bottom {
+    background-color: var(--lightblue);
+    padding: 10%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 5%;
+  }
+
+.grid-kontakt-bottom p {
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+
+.grid-kontakt-parent {
+    display: inline;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* form */
+
+.form-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;  
+    height: 100%;
+    width: 90%;
+    border: 8px solid var(--lighterblue);
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.kontaktform {
+    padding: 50px;
+    width: 60%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 4px solid var(--lightblue);
+    border-radius: 30px;
+    font-size: 18px;
+    outline: none;
+    background-color: var(--lightblue);
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border: 4px solid var(--lighterblue);
+}
+
+button[type="submit"] {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.form-select {
+    min-width: 350px;
+  }
+  
+.form-select select {
+    appearance: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 96px 10px 16px;
+    background-color: var(--lightblue);
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    cursor: pointer;
+  }
+
+legend {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 60px;
+    background-color: #ffffff;
+    font-size: 3.5vmin;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.required {
+    font-size: 3.5vmin;
+    font-weight: 900;
+    color: crimson;
+}
+
+
+   /* Hide element on Tablet/Phone */
+
+@media only screen and (max-width:850px) {
+  .kontakt-title {
+      text-align: center;
+  }
+
+  .kontakt-container {
+    flex-direction: column;
+  }
+
+  .kontakt-box1, .kontakt-box2  {
+    width: 100%;
+}
+
+.grid-kontakt-top  {
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+.grid-kontakt-bottom  {
+    padding: 5%;
+  }
+
+.form-container {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.kontaktform {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+button[type="submit"] {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    bottom: 40px;
+    margin-inline: auto; 
+}
+
+legend {
+    margin:0 auto;
+    text-align: center;
+}
+
+}
