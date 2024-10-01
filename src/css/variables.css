@@ -1,12 +1,12 @@
 /* Useful variables, colors, fonts and padding sizes */
   @font-face {
     font-family: 'Avenir';
-    src: url('/fonts/avenir.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/avenir.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/avenir.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/avenir.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/avenir.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/fonts/avenir.svg#Avenue') format('svg'); /* Legacy iOS */
+    src: url('fonts/avenir.eot'); /* IE9 Compat Modes */
+    src: url('fonts/avenir.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/avenir.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/avenir.woff') format('woff'), /* Modern Browsers */
+         url('fonts/avenir.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/avenir.svg#Avenue') format('svg'); /* Legacy iOS */
 }
 
 :root {
