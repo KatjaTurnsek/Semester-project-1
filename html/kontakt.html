@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gemenskapet Vetenskapsmuseum: Kontakt och öppettider</title>
+    <title>Kontakt och öppettider | Gemenskapet Vetenskapsmuseum</title>
     <meta name="description" content="Kontakta oss på Gemenskapet Vetenskapsmuseum på Dom Nyfiknas Gata i Göteborg. Se även våra öppettider.">
     <link rel="stylesheet" href="../src/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
+
+    <a href="#main-content" class="sr-only sr-only-focusable">Hoppa till innehållet</a>
 
     <header>
         <a href="../index.html"><img class="logo" src="../assets/images/museum-logga.png" alt="Gemenskapet Vetenskapsmuseum logga"></a>
@@ -18,19 +20,20 @@
             <span><i class="fa-solid fa-bars"></i></span>
             <span class="sr-only">Menu</span>
         </label>
-        <a href="engagera-dig.html" class="main-button">Engagera dig</a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">hem</a></li>
-                <li><a href="utforska.html">utforska</a></li>
-                <li><a href="evenemang.html">evenemang</a></li>
-                <li><a href="nyheter.html">nyheter</a></li>
-                <li class="active"><a href="kontakt.html">kontakt</a></li>
-            </ul>
+        <a href="html/engagera-dig.html" class="main-button" role="button">Engagera dig</a>
+
+        <nav aria-label="Huvudmeny">
+          <ul>
+            <li><a href="../index.html">hem</a></li>
+            <li><a href="utforska.html">utforska</a></li>
+            <li><a href="evenemang.html">evenemang</a></li>
+            <li><a href="nyheter.html">nyheter</a></li>
+            <li class="active"><a href="kontakt.html">kontakt</a></li>
+          </ul>
         </nav>
     </header>
     
-    <main>     
+    <main id="main-content">     
             <section class="grid-parent">
                 <div class="topinfo-left">
                 <p>Boka er guidade tur för grupp på 6 eller fler personer <a href="kontakt.html">här</a></p>
@@ -137,9 +140,9 @@
                             <option value="avdeling1">Boka evenemang</option>
                             <option value="avdeling2">Boka guidad tur</option>
                             <option value="avdeling3">Donationer</option>
-                            <option value="avdeling3">Bli volontär</option>
-                            <option value="avdeling4">Sök praktikplats</option>
-                            <option value="avdeling4">Övriga meddelanden</option>
+                            <option value="avdeling4">Bli volontär</option>
+                            <option value="avdeling5">Sök praktikplats</option>
+                            <option value="avdeling6">Övriga meddelanden</option>
                         </select>
                         </div>
             
