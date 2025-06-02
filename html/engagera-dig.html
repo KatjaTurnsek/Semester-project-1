@@ -10,57 +10,59 @@
 </head>
 <body>
 
+    <a href="#main-content" class="sr-only sr-only-focusable">Hoppa till innehållet</a>
+
     <header>
         <a href="../index.html"><img class="logo" src="../assets/images/museum-logga.png" alt="Gemenskapet Vetenskapsmuseum logga"></a>
-      
+        
         <input id="toggler" class="toggler" type="checkbox">
         <label for="toggler" class="burger">
             <span><i class="fa-solid fa-bars"></i></span>
             <span class="sr-only">Menu</span>
         </label>
-        <a href="engagera-dig.html" class="main-button">Engagera dig</a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">hem</a></li>
-                <li><a href="utforska.html">utforska</a></li>
-                <li><a href="evenemang.html">evenemang</a></li>
-                <li><a href="nyheter.html">nyheter</a></li>
-                <li><a href="kontakt.html">kontakt</a></li>
-            </ul>
-        </nav>
+        <a href="html/engagera-dig.html" class="main-button" role="button">Engagera dig</a>
+
+    <nav aria-label="Huvudmeny">
+      <ul>
+        <li><a href="../index.html">hem</a></li>
+        <li><a href="utforska.html">utforska</a></li>
+        <li><a href="evenemang.html">evenemang</a></li>
+        <li><a href="nyheter.html">nyheter</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
+      </ul>
+    </nav>
+
     </header>
     
-    <main>     
-            <section class="grid-parent">
-                <div class="topinfo-left">
+    <main id="main-content">     
+        <section class="grid-parent">
+            <div class="topinfo-left">
                 <p>Boka er guidade tur för grupp på 6 eller fler personer <a href="kontakt.html">här</a></p>
-                </div>
-                <div class="topinfo-right">
+            </div>
+            <div class="topinfo-right">
                 <h2 class="topinfo-h2">Entrén är gratis för alla</h2>
-                </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="main-img-engageradig">
-                <h1>Engagera dig</h1>
-                <p class="post-headline">Upptäck hur du kan stödja vårt museum genom donationer av föremål eller volontärarbete Läs mer och engagera dig idag!</p>
-                <figure class="polygon1"></figure> 
-                <figure class="polygon2"></figure>
-                <figure class="polygon3"></figure> 
-                <figure class="polygon4"></figure>                  
-            </section>
+        <section class="main-img-engageradig">
+            <h1>Engagera dig</h1>
+            <p class="post-headline">Upptäck hur du kan stödja vårt museum genom donationer av föremål eller volontärarbete Läs mer och engagera dig idag!</p>
+            <figure class="polygon1"></figure> 
+            <figure class="polygon2"></figure>
+            <figure class="polygon3"></figure> 
+            <figure class="polygon4"></figure>                  
+        </section>
 
-        <section class="page-content">
-
-            <h2 class="largeh2">Stöd oss på museet: Donationer, Volontärarbete och Praktikplatser</h2>
-
+        <section class="page-content" aria-labelledby="stöd-section-title">
+            <h2 id="stöd-section-title" class="largeh2">Stöd oss på museet: Donationer, Volontärarbete och Praktikplatser</h2>
+        
             <article class="engageradig-container">
                 <div class="engageradig-box1">
                     <h3 class="engageradig-title">Stöd</h3>
                     <p>Det finns olika sätt att stödja museet. </p>
                     <p>Donationer är mycket välkomna och är ett viktigt sätt att hålla detta museum öppet och tillgängligt för hela samhället.</p>
                     <p>Du kan också stödja oss genom att donera föremål av intresse till museets insamlingar. </p>
-                    <p>Om du har något föremål eller en samling som du tror att andra skulle 
-                        uppskatta, vänligen meddela oss genom att kontakta vår insamlingsavdelning så kan de hjälpa dig.</p>
+                    <p>Om du har något föremål eller en samling som du tror att andra skulle uppskatta, vänligen meddela oss genom att kontakta vår insamlingsavdelning så kan de hjälpa dig.</p>
                     <a href="kontakt.html" class="arrow-button">Kontakt <i class="fa-solid fa-arrow-right fa-l"></i></a>
                 </div>
                 <div class="engageradig-box1">
@@ -68,7 +70,7 @@
                     <p>Ett antal personer lägger sin tid och ansträngning frivilligt för att hålla skärmarna i god ordning och redo för besökarna att komma och njuta. </p>
                     <p>Volontärarbete har sina fördelar. Se bakom kulisserna på ett fungerande museum, få tillgång till föreläsningar endast för personal och en månatlig 
                         lunch där all personal och volontärer samlas för att diskutera idéer för framtida utställningar och strategier för museet.</p>
-                        <p>Du kan hjälpa till att vara volontär inom en rad olika områden. Kontakta oss gärna om du vill veta mer om hur du kan engagera dig.</p>
+                    <p>Du kan hjälpa till att vara volontär inom en rad olika områden. Kontakta oss gärna om du vill veta mer om hur du kan engagera dig.</p>
                     <a href="kontakt.html" class="arrow-button">Kontakt <i class="fa-solid fa-arrow-right fa-l"></i></a>
                 </div>
                 <div class="engageradig-box1">
@@ -76,42 +78,41 @@
                     <p>Är du intresserad av att arbeta på ett museum? </p>
                     <p>Gillar du det roliga och spänningen i att dela naturens under med andra människor? </p>
                     <p>Tja, du kan vara precis rätt person för att få en praktikplats på museet.</p>
-                        <p>Du kommer att lära dig av ett antal olika akademiker och människor som brinner för vetenskap och som delar den med det bredare samhället.</p>
+                    <p>Du kommer att lära dig av ett antal olika akademiker och människor som brinner för vetenskap och som delar den med det bredare samhället.</p>
                     <a href="kontakt.html" class="arrow-button">Kontakt <i class="fa-solid fa-arrow-right fa-l"></i></a>
                 </div>
             </article>
-
-        </section>  
-
+        </section>
+        
     </main>
 
-        <footer class="footer-container">
-            <!-- Footer social -->
-            <div class="footer-social">
-                <div class="social">
-                    <a title="Facebook" href="#" class="btn-social-fb"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
-                    <a title="Twitter" href="#" class="btn-social-fb btn-social-tw"><i class="fa-brands fa-twitter fa-2x"></i></a>
-                    <a title="Instagram" href="#" class="btn-social-fb btn-social-in"><i class="fa-brands fa-instagram fa-2x"></i></a>
-                </div>
-                <div class="social-text">
-                    <p class="footer-title-social">vi är sociala</p>
-                </div>
-                <div class="up">
-                    <p class="footer-title-social">upp</p>
-                    <a title="To top" href="#" class="btn-up"><i class="fa-solid fa-arrow-up fa-2x"></i></a>
-                </div>
+    <footer class="footer-container">
+        <!-- Footer social -->
+        <div class="footer-social">
+            <div class="social">
+                <a title="Facebook" href="#" class="btn-social-fb"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
+                <a title="Twitter" href="#" class="btn-social-fb btn-social-tw"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a title="Instagram" href="#" class="btn-social-fb btn-social-in"><i class="fa-brands fa-instagram fa-2x"></i></a>
             </div>
-            <!-- Footer main -->
-            <address class="footer-main"> 
-                    <p class="footer-title"><i class="fa-solid fa-location-dot fa-xl fa-fw"></i> Besöksadress</p>
-                    <p>Dom Nyfiknas Gata 22, 430 60 Göteborg</p>
-                    <p class="footer-title"><i class="fa-solid fa-link fa-xl fa-fw"></i> Länkar</p>
-                    <p><a href="intigretetspolicy.html">Integritetspolicy</a></p>
-                    <p><a href="allmanna-villkor.html">Allmänna villkor</a></p>
-            </address>
-            <!-- Footer legal -->
-            <div class="footer-legal"><p>© 2024 Gemenskapet Vetenskapsmuseum</p></div>
-        </footer>
+            <div class="social-text">
+                <p class="footer-title-social">vi är sociala</p>
+            </div>
+            <div class="up">
+                <p class="footer-title-social">upp</p>
+                <a title="To top" href="#" class="btn-up"><i class="fa-solid fa-arrow-up fa-2x"></i></a>
+            </div>
+        </div>
+        <!-- Footer main -->
+        <address class="footer-main"> 
+            <p class="footer-title"><i class="fa-solid fa-location-dot fa-xl fa-fw"></i> Besöksadress</p>
+            <p>Dom Nyfiknas Gata 22, 430 60 Göteborg</p>
+            <p class="footer-title"><i class="fa-solid fa-link fa-xl fa-fw"></i> Länkar</p>
+            <p><a href="intigretetspolicy.html">Integritetspolicy</a></p>
+            <p><a href="allmanna-villkor.html">Allmänna villkor</a></p>
+        </address>
+        <!-- Footer legal -->
+        <div class="footer-legal"><p>© 2024 Gemenskapet Vetenskapsmuseum</p></div>
+    </footer>
 
 </body>
 </html>
