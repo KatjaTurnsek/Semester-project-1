@@ -12,7 +12,6 @@
     margin-bottom: 50px;
   }
 
-
 .utforska-title {
     font-size: 4vmin;
     font-weight: 900;
@@ -20,10 +19,7 @@
     text-align: left;
     line-height: 50px;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 10px 5%;
     margin: 0;
 }
 
@@ -95,8 +91,7 @@
       text-align: center;
       border-right: none;
       border-bottom: 1px solid var(--lightblue);
-      padding-right: 0;
-      padding-bottom: 20px;
+      padding: 0 0 20px 0;
     }
   
 }
