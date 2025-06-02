@@ -10,6 +10,8 @@
 </head>
 <body>
 
+    <a href="#main-content" class="sr-only sr-only-focusable">Hoppa till innehållet</a>
+
     <header>
         <a href="../index.html"><img class="logo" src="../assets/images/museum-logga.png" alt="Gemenskapet Vetenskapsmuseum logga"></a>
       
@@ -18,19 +20,20 @@
             <span><i class="fa-solid fa-bars"></i></span>
             <span class="sr-only">Menu</span>
         </label>
-        <a href="engagera-dig.html" class="main-button">Engagera dig</a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">hem</a></li>
-                <li class="active"><a href="utforska.html">utforska</a></li>
-                <li><a href="evenemang.html">evenemang</a></li>
-                <li><a href="nyheter.html">nyheter</a></li>
-                <li><a href="kontakt.html">kontakt</a></li>
-            </ul>
+        <a href="html/engagera-dig.html" class="main-button" role="button">Engagera dig</a>
+
+        <nav aria-label="Huvudmeny">
+          <ul>
+            <li><a href="../index.html">hem</a></li>
+            <li class="active"><a href="utforska.html">utforska</a></li>
+            <li><a href="evenemang.html">evenemang</a></li>
+            <li><a href="nyheter.html">nyheter</a></li>
+            <li><a href="kontakt.html">kontakt</a></li>
+          </ul>
         </nav>
     </header>
     
-    <main>     
+    <main id="main-content">     
             <section class="grid-parent">
                 <div class="topinfo-left">
                 <p>Boka er guidade tur för grupp på 6 eller fler personer <a href="kontakt.html">här</a></p>
@@ -50,76 +53,73 @@
                 <figure class="polygon4"></figure>                  
             </section>
 
-
-            <section class="page-content">
-
-                <h2 class="largeh2">För Barn: Utforska och Lär Dig Naturvetenskap</h2>
-    
-                    <article class="utforska-container">
-                        <div class="utforska-box1">
-                            <h3 class="utforska-title">För barn</h3>
-                        </div>
-                        <div class="utforska-box2">
-    
-                            <div class="grid-utforska-parent">
-                                <div class="grid-utforska-left">
-                                    <p>Är du en ung person som vill lära dig mer om naturvetenskap? Kom ner till vårt museum, det finns mycket att se och göra.</p>
-                                    <p>Du kan lära dig om Newtons fysik från vår stötfångarsving, eller varför inte resa tillbaka i tiden och träffa vår bosatta Ulliga Mammuten?</p> 
-                                    <p>Våra utställningar är utformade för att vara tillgängliga för intresserade sinnen, så se till att du kommer redo att lära dig och utforska.</p>
-                                    <p>Vi har också <strong>Unga stjärnors klubb</strong> där vi träffas en gång i veckan på lördagar mellan 10:00 och 13:00, där du får utforska och experimentera 
-                                        med vårt team av experter.</p>
-                                    <p>Under skolloven driver vi <strong>speciella semesterklubbar</strong> där du kan gå med andra barn i din ålder på en upptäcktsresa. Varje skolloven väljer vi 
-                                        ett nytt tema att utforska. </p><p>För att veta mer om lovklubben och hur du kan gå med, <a href="kontakt.html">skicka ett meddelande till oss</a></p>
-                                </div>
-                                <div class="grid-utforska-right">
-                                    <img class="utforska-img" src="../assets/images/utforska-lara.jpg" alt="Barn som lär sig utforska">
-                                </div>
+            <section class="page-content" aria-labelledby="section-title">
+                <h2 id="section-title" class="largeh2">För Barn: Utforska och Lär Dig Naturvetenskap</h2>
+            
+                <article class="utforska-container">
+                    <div class="utforska-box1">
+                        <h3 class="utforska-title">För barn</h3>
+                    </div>
+                    <div class="utforska-box2">
+            
+                        <div class="grid-utforska-parent">
+                            <div class="grid-utforska-left">
+                                <p>Är du en ung person som vill lära dig mer om naturvetenskap? Kom ner till vårt museum, det finns mycket att se och göra.</p>
+                                <p>Du kan lära dig om Newtons fysik från vår stötfångarsving, eller varför inte resa tillbaka i tiden och träffa vår bosatta Ulliga Mammuten?</p> 
+                                <p>Våra utställningar är utformade för att vara tillgängliga för intresserade sinnen, så se till att du kommer redo att lära dig och utforska.</p>
+                                <p>Vi har också <strong>Unga stjärnors klubb</strong> där vi träffas en gång i veckan på lördagar mellan 10:00 och 13:00, där du får utforska och experimentera 
+                                    med vårt team av experter.</p>
+                                <p>Under skolloven driver vi <strong>speciella semesterklubbar</strong> där du kan gå med andra barn i din ålder på en upptäcktsresa. Varje skolloven väljer vi 
+                                    ett nytt tema att utforska. </p><p>För att veta mer om lovklubben och hur du kan gå med, <a href="kontakt.html">skicka ett meddelande till oss</a></p>
                             </div>
-                  
-                        </div>                    
-                    </article>
-    
-                    <article class="utforska-container">
-                        <div class="utforska-box1">
-                            <h3 class="utforska-title">För lärare</h3>
-                        </div>
-                        <div class="utforska-box2">
-    
-                            <div class="grid-utforska-parent">
-                                <div class="grid-utforska-left">
-                                    <p>Som ett <strong>samhällsdrivet museum</strong> vill vi samarbeta med skolor för att skapa platser för lärande och utforskande. </p>
-                                    <p>Vårt team finns till hands för att <strong>ge dina elever</strong> guidade rundturer i museet, undervisa dem i vårt lär 
-                                        laboratorium och tillhandahålla fantastiska videopresentationer som kommer att entusiasmera och inspirera dem.</p>
-                                     <p>Vänligen <a href="kontakt.html">kontakta oss</a> här för att få veta mer om våra lokaler och för att bestämma en tid för att ta med dina elever för ett besök.</p>
-                                </div>
-                                <div class="grid-utforska-right">
-                                    <img class="utforska-img" src="../assets/images/larare.jpg" alt="Lärare i Aula">
-                                </div>
+                            <div class="grid-utforska-right">
+                                <img class="utforska-img" src="../assets/images/utforska-lara.jpg" alt="Barn som lär sig utforska" loading="lazy">
                             </div>
-                  
-                        </div>                     
-                    </article>
-    
-                    <article class="utforska-container">
-                        <div class="utforska-box1">
-                            <h3 class="utforska-title">Forskare</h3>
                         </div>
-                        <div class="utforska-box2">
-    
-                            <div class="grid-utforska-parent">
-                                <div class="grid-utforska-left">
-                                    <p>Vill du engagera dig i vårt team av forskare och akademiker? Vårt museum erbjuder olika sätt för dig att använda våra 
-                                        resurser och bidra till dem. Vi har onlineregister, laboratorieutrymme och en arbetsrelation med ett antal universitet runt om i landet.</p>
-                                </div>
-                                <div class="grid-utforska-right">
-                                    <img class="utforska-img" src="../assets/images/forskare.jpg" alt="Forsakre tittar i mikroskop">
-                                </div>
+            
+                    </div>                    
+                </article>
+            
+                <article class="utforska-container">
+                    <div class="utforska-box1">
+                        <h3 class="utforska-title">För lärare</h3>
+                    </div>
+                    <div class="utforska-box2">
+            
+                        <div class="grid-utforska-parent">
+                            <div class="grid-utforska-left">
+                                <p>Som ett <strong>samhällsdrivet museum</strong> vill vi samarbeta med skolor för att skapa platser för lärande och utforskande. </p>
+                                <p>Vårt team finns till hands för att <strong>ge dina elever</strong> guidade rundturer i museet, undervisa dem i vårt lär 
+                                    laboratorium och tillhandahålla fantastiska videopresentationer som kommer att entusiasmera och inspirera dem.</p>
+                                 <p>Vänligen <a href="kontakt.html">kontakta oss</a> här för att få veta mer om våra lokaler och för att bestämma en tid för att ta med dina elever för ett besök.</p>
                             </div>
-                  
-                        </div>                       
-                    </article>
-    
-            </section>  
+                            <div class="grid-utforska-right">
+                                <img class="utforska-img" src="../assets/images/larare.jpg" alt="Lärare i Aula" loading="lazy">
+                            </div>
+                        </div>
+            
+                    </div>                     
+                </article>
+            
+                <article class="utforska-container">
+                    <div class="utforska-box1">
+                        <h3 class="utforska-title">Forskare</h3>
+                    </div>
+                    <div class="utforska-box2">
+            
+                        <div class="grid-utforska-parent">
+                            <div class="grid-utforska-left">
+                                <p>Vill du engagera dig i vårt team av forskare och akademiker? Vårt museum erbjuder olika sätt för dig att använda våra 
+                                    resurser och bidra till dem. Vi har onlineregister, laboratorieutrymme och en arbetsrelation med ett antal universitet runt om i landet.</p>
+                            </div>
+                            <div class="grid-utforska-right">
+                                <img class="utforska-img" src="../assets/images/forskare.jpg" alt="Forsakre tittar i mikroskop" loading="lazy">
+                            </div>
+                        </div>
+            
+                    </div>                       
+                </article>
+            </section>            
 
     </main>
 
