@@ -17,9 +17,7 @@
     font-weight: 900;
     text-transform: uppercase;
     text-align: left;
-    padding-left: 7%;
-    padding-bottom: 20px;
-    padding-top: 50px;
+    padding: 50px 0 20px 7%;
     margin: 0;
 }
 
@@ -28,24 +26,19 @@
     flex-wrap: wrap;
     height: 100%;
     gap: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 20px;
-    padding-bottom: 80px;
+    padding: 20px 5% 80px 5%;
 }
 
 .engageradig-container p {
     flex: 1 1 auto;
     text-align: left;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding: 0 7%;
     margin-bottom: 20px;
     line-height: 30px;
 }
 
 .engageradig-container a {
-    margin-left: 20px;
-    margin-bottom: 40px;
+    margin: 0 0 40px 20px;
 }
 
 .engageradig-box1 {
@@ -60,7 +53,6 @@
 }
 
     /* Hide element on Tablet/Phone */
-
 @media only screen and (max-width:850px) { 
     .engageradig-container {
         text-align: center;
@@ -74,8 +66,7 @@
     }
 
     .engageradig-container p {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 0 30px;
     }
 
     .engageradig-box1 {
@@ -83,8 +74,3 @@
       text-align: center;
   }
 }
-
-
-   
-    
-    
