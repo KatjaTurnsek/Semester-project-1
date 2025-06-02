@@ -19,10 +19,7 @@
     text-align: left;
     line-height: 50px;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 10px 5%;
     margin: 0;
 }
 
@@ -50,9 +47,7 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 60px;
+    margin: 60px 5% 0;
 }
 .evenemang-box3 {
     display: flex;
@@ -60,10 +55,7 @@
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     padding: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 0;
-    margin-bottom: 60px;
+    margin: 0 5% 60px;
 }
 
 .evenemang-img {
@@ -122,8 +114,6 @@
         text-align: center;
         border-right: none;
         border-bottom: 1px solid var(--lighterblue);
-        padding-right: 0;
-        padding-bottom: 20px;
+        padding: 0 0 20px;
       }
-    
 }
