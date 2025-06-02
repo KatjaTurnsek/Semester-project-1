@@ -10,6 +10,8 @@
 </head>
 <body>
 
+    <a href="#main-content" class="sr-only sr-only-focusable">Hoppa till innehållet</a>
+
     <header>
         <a href="../index.html"><img class="logo" src="../assets/images/museum-logga.png" alt="Gemenskapet Vetenskapsmuseum logga"></a>
       
@@ -18,19 +20,20 @@
             <span><i class="fa-solid fa-bars"></i></span>
             <span class="sr-only">Menu</span>
         </label>
-        <a href="engagera-dig.html" class="main-button">Engagera dig</a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">hem</a></li>
-                <li><a href="utforska.html">utforska</a></li>
-                <li><a href="evenemang.html">evenemang</a></li>
-                <li class="active"><a href="nyheter.html">nyheter</a></li>
-                <li><a href="kontakt.html">kontakt</a></li>
-            </ul>
+        <a href="html/engagera-dig.html" class="main-button" role="button">Engagera dig</a>
+
+        <nav aria-label="Huvudmeny">
+          <ul>
+            <li><a href="../index.html">hem</a></li>
+            <li><a href="utforska.html">utforska</a></li>
+            <li><a href="evenemang.html">evenemang</a></li>
+            <li class="active"><a href="nyheter.html">nyheter</a></li>
+            <li><a href="kontakt.html">kontakt</a></li>
+          </ul>
         </nav>
     </header>
     
-    <main>     
+    <main id="main-content">     
             <section class="grid-parent">
                 <div class="topinfo-left">
                 <p>Boka er guidade tur för grupp på 6 eller fler personer <a href="kontakt.html">här</a></p>
@@ -68,7 +71,7 @@
                                     <a href="html/kontakt.html" class="arrow-button">Boka nu <i class="fa-solid fa-arrow-right fa-l"></i></a>
                                 </div>
                                 <div class="grid-nyheter-right">
-                                    <img class="nyheter-img" src="../assets/images/flygteknik.jpg" alt="person sitter i flygstol med hjälm">
+                                    <img class="nyheter-img" src="../assets/images/flygteknik.jpg" alt="person sitter i flygstol med hjälm" loading="lazy">
                                 </div>
                             </div>               
                         </div>
@@ -89,7 +92,7 @@
                                     <a href="html/kontakt.html" class="arrow-button">Boka nu <i class="fa-solid fa-arrow-right fa-l"></i></a>
                                 </div>
                                 <div class="grid-nyheter-right">
-                                    <img class="nyheter-img" src="../assets/images/overnattning-museum.jpg" alt="Mammut i museet">
+                                    <img class="nyheter-img" src="../assets/images/overnattning-museum.jpg" alt="Mammut i museet" loading="lazy">
                                 </div>
                             </div>               
                         </div>
@@ -111,13 +114,11 @@
                                     <a href="html/kontakt.html" class="arrow-button">Boka nu <i class="fa-solid fa-arrow-right fa-l"></i></a>
                                 </div>
                                 <div class="grid-nyheter-right">
-                                    <img class="nyheter-img" src="../assets/images/utforska-tillsammans.jpg" alt="Barn tittar igenom glasögon">
+                                    <img class="nyheter-img" src="../assets/images/utforska-tillsammans.jpg" alt="Barn tittar igenom glasögon" loading="lazy">
                                 </div>
                             </div>              
                         </div>
                     </article>
-    
-    
             </section>  
 
     </main>
